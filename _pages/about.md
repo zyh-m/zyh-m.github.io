@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: justify;">
 
 I graduated with a B.Eng (Civil Engineering) from Hohai University in China in 2017, and obtained my Ph.D. (Construction Management) at the National University of Singapore (NUS) in 2024. My research centers on the Digitalization of the Built Environment, structured within a 3Ps framework (**Fig. 1**): **Process**, focusing on Building Information Modeling (BIM); **People**, emphasizing human-built environment interactions; and **Product**, involving robotics and automation.
 
@@ -61,4 +60,4 @@ I graduated with a B.Eng (Civil Engineering) from Hohai University in China in 2
 ### **Membership**
 1. *(To be updated)*
 
-</div>
+
