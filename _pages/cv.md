@@ -11,35 +11,27 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Construction Management, National University of Singapore, 2024
+* B.S. in Civil Engineering, Hohai University, 2017
 
-Work experience
+Professional Appointments
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* ***Research Fellow***, National University of Singapore, January 2024 – Present
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* ***Teaching Assistant***, National University of Singapore, January 2019 – July 2022
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* ***Research Assistant***, Hohai University, July 2017 – December 2018
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Language Proficiency: Native Chinese, Professional English
+
+* Programming: Python, Matlab
+
+* Software/Tools: Rhino/Grasshopper, Revit, Naviswork, AutoCAD
+
+* Hardware: Geophones, Distributed Acoustic Sensing (DAS) System, Raspberry Pi
+
 
 Publications
 ======
