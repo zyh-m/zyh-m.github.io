@@ -11,11 +11,13 @@ redirect_from:
 
 I graduated with a B.Eng (Civil Engineering) from Hohai University in China in 2017, and obtained my Ph.D. (Construction Management) at the National University of Singapore (NUS) in 2024. My research centers on the Digitalization of the Built Environment, structured within a 3Ps framework (**Fig. 1**): **Process**, focusing on Building Information Modeling (BIM); **People**, emphasizing human-built environment interactions; and **Product**, involving robotics and automation.
 
-<img width="469" alt="3Ps framework"
-     src="https://github.com/user-attachments/assets/f52ff5d1-6aa5-4533-b5ae-f196ed6599e2"
-     style="display: block; margin-left: auto; margin-right: auto;" />
+<div style="text-align: center;">
+  <img width="469" alt="3Ps framework"
+       src="https://github.com/user-attachments/assets/f52ff5d1-6aa5-4533-b5ae-f196ed6599e2"
+       style="display: block; margin-left: auto; margin-right: auto;" />
+  <p><strong>Figure 1.</strong> <em>3Ps framework of digitalization of the built environment</em></p>
+</div>
 
-**Figure 1.** *3Ps framework of digitalization of the built environment*
 
 ---
 
