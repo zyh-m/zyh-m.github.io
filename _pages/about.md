@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Biography"
 author_profile: true
 css: "/assets/css/custom.css"
 redirect_from: 
