@@ -2,7 +2,7 @@
 title: "CE3203: Optimization and Algorithms for Civil Engineers"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2024-spring-teaching-1
+permalink: /teaching/teaching-1
 venue: "Department of Civil and Environmental Engineering, National University of Singapore"
 semester: 2023/2024 Semester 2
 location: "Singapore"
