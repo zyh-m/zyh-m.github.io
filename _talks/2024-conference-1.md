@@ -1,5 +1,5 @@
 ---
-title: "CONVR Conference: Enhancing Building Design Through Analysis and Predictive Modeling Of Occupant Movements"
+title: "2024 - CONVR Conference: Enhancing Building Design Through Analysis and Predictive Modeling Of Occupant Movements"
 collection: talks
 type: "Conference"
 permalink: /talks/2024-conference-1
