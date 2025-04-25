@@ -1,5 +1,5 @@
 ---
-title: "Conference: The Relationship between Occupants’ Movement and Building Morphology Before and During COVID-19 Pandemic"
+title: "i3CE Conference: The Relationship between Occupants’ Movement and Building Morphology Before and During COVID-19 Pandemic"
 collection: talks
 type: "Conference"
 permalink: /talks/2023-conference-2
