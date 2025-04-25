@@ -15,7 +15,7 @@ name                     : &name "Yuhan Zhou"
 description              : &description "personal description"
 url                      : https://zyh-m.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zyh-m/yuhan_z.github.io"
+repository               : "zyh-m.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -29,7 +29,7 @@ author:
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "zhouyuhan@u.nus.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
