@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching-1
 venue: "National University of Singapore, Department of Civil and Environmental Engineering"
-date: 2014-01-01
+seminar: 2023/2024 Semester 2
 location: "Singapore"
 ---
 
