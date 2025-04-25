@@ -1,5 +1,5 @@
 ---
-title: "2021 - i3CE Conference: Knowledge Loss Measurement through quality evaluation of Conceptual Graph"
+title: "2021 i3CE Conference: Knowledge Loss Measurement through quality evaluation of Conceptual Graph"
 collection: talks
 type: "Conference"
 permalink: /talks/2021-conference-4
