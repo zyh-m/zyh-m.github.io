@@ -8,61 +8,74 @@ redirect_from:
   - /about.html
 ---
 
-
-I graduated with a B.Eng (Civil Engineering) from Hohai University in China in 2017, and obtained my Ph.D. (Construction Management) at the National University of Singapore (NUS) in 2024. My research centers on the Digitalization of the Built Environment, structured within a 3Ps framework (**Fig. 1**): **Process**, focusing on Building Information Modeling (BIM); **People**, emphasizing human-built environment interactions; and **Product**, involving robotics and automation.
-
-<div style="text-align: center;">
-  <img width="469" alt="3Ps framework"
-       src="https://github.com/user-attachments/assets/f52ff5d1-6aa5-4533-b5ae-f196ed6599e2"
-       style="display: block; margin-left: auto; margin-right: auto;" />
-  <p><strong>Figure 1.</strong> <em>3Ps framework of digitalization of the built environment</em></p>
+<div style="background-color: #f5f8ff; padding: 1.2rem 1.5rem; border-left: 5px solid #007acc; margin-bottom: 1.5rem;">
+  <strong>🔬 Research Vision:</strong> My research lies at the intersection of digital construction, human-building interaction, and intelligent sensing, with a focus on scalable and data-driven solutions for the built environment.
 </div>
 
+I received my B.Eng in Civil Engineering from Hohai University in China (2017), and obtained my Ph.D. in Construction Management from the National University of Singapore (NUS) in 2024. My research centers on the Digitalization of the Built Environment, structured within a 3Ps framework (**Figure 1**): **Process** (Building Information Modeling - BIM), **People** (human-built environment interactions), and **Product** (robotics and automation).
+
+<div style="border: 1px solid #ddd; padding: 1rem; margin: 2rem 0; border-radius: 6px;">
+  <p style="text-align: center; font-weight: bold;">3Ps Framework of Digitalization</p>
+  <img src="https://github.com/user-attachments/assets/f52ff5d1-6aa5-4533-b5ae-f196ed6599e2" width="500" style="display: block; margin: 0 auto;" />
+  <p style="text-align: center; font-style: italic; margin-top: 0.5rem;">Figure 1. Process – People – Product</p>
+</div>
 
 ---
 
-### **Research Focus**
+### 🧪 Research Focus
 
-#### **a) Human-Building Interactions**
-- Developed data-to-dashboard applications that integrate sensor fusion, data analytics, and machine learning to analyze occupant behavior and optimize building performance.  
-- Utilized IoT-enabled systems for real-time environmental monitoring, enhancing decision-making in building operations.
+#### a) Human-Building Interactions
+- Developed sensor-to-dashboard applications integrating data analytics and ML to optimize occupant behavior and building performance.  
+- Utilized IoT systems for real-time monitoring and decision-making in smart facilities.
 
-#### **b) Smart Sensing Technology**
-- Designed and deployed fiber-optic and IoT-based sensing solutions to automate data collection and analysis across building lifecycles.  
-- Standardized and integrated structured and unstructured data for real-time visualization, improving digital workflow efficiency.
+#### b) Smart Sensing Technology
+- Deployed fiber-optic and IoT-based sensing for automated data collection and lifecycle analysis.  
+- Integrated structured/unstructured data to enhance real-time visualization and digital workflows.
 
-#### **c) Building Information Modeling (BIM)**
-- Developed AI-powered automation for BIM workflows, enabling seamless data integration, model optimization, and real-time collaboration across project teams.  
-- Applied optimization algorithms to improve project coordination, visualization, and decision-making.
+#### c) Building Information Modeling (BIM)
+- Developed AI-based automation for BIM workflows, enabling seamless model coordination and team collaboration.  
+- Applied optimization for improved design coordination and decision-making.
 
-#### **d) Automated Code Compliance Checking (ACCC)**
-- Leveraged deep learning and conceptual graphs to enhance regulatory compliance automation, streamlining building code verification and approval processes.  
-- Contributed to the digital transformation of compliance checking, ensuring efficient, accurate, and automated regulatory assessments.
-
----
-
-### **Research Interests**
-1. Digital Built Environment  
-2. Smart Sensing  
-3. BIM & Automation  
-4. Human-Building Interaction  
-5. Code Compliance Technologies  
+#### d) Automated Code Compliance Checking (ACCC)
+- Leveraged deep learning and conceptual graphs to automate regulatory verification.  
+- Contributed to efficient, accurate, and transparent digital compliance workflows.
 
 ---
 
-### **Research Projects**
-1. *(To be updated)*
+### 🎯 Research Interests
+
+<section style="background: #f9f9f9; padding: 1rem 2rem; border-radius: 8px;">
+<ul>
+  <li>Digital Built Environment</li>
+  <li>Smart Sensing & Data Integration</li>
+  <li>Building Information Modeling (BIM)</li>
+  <li>Human-Building Interaction</li>
+  <li>Automated Code Compliance</li>
+</ul>
+</section>
 
 ---
 
-### **Honors and Awards**
-1. *(To be updated)*
+### 🧩 Research Projects
+
+| Title                            | Year        | Role     |
+|----------------------------------|-------------|----------|
+|            |     |         |
+|            |     |         |
+|            |     |         |
 
 ---
 
-### **Membership**
-1. Member, ASCE Technical Council on Computing and Information Technology, Visualization, Information Modeling, and Simulation (VIMS) Committee 
+### 🏆 Honors and Awards
 
-2. Member, ASCE Technical Council on Computing and Information Technology, Data Sensing and Analysis (DSA) Committee
+| Year | Award                                  |
+|------|----------------------------------------|
+|   |       |
+|   |           |
 
+---
 
+### 🧑‍💼 Membership
+
+- Member, ASCE Technical Council on Computing and Information Technology – Visualization, Information Modeling, and Simulation (VIMS)  
+- Member, ASCE Technical Council on Computing and Information Technology – Data Sensing and Analysis (DSA)
