@@ -25,7 +25,9 @@ author:
   avatar           : "photo.png"
   name             : "Yuhan Zhou"
   pronouns         : # example: "she/her"  
-  bio              : "Research Fellow, /n National University of Singapore"
+  bio              : |
+  Research Fellow  
+  National University of Singapore
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
