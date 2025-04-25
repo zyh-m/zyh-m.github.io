@@ -1,5 +1,5 @@
 ---
-title: "CONVR Conference: An Automatic Method of Information Extraction From 2D Floorplans"
+title: "2022 - CONVR Conference: An Automatic Method of Information Extraction From 2D Floorplans"
 collection: talks
 type: "Conference"
 permalink: /talks/2022-conference-3
