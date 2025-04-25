@@ -61,6 +61,8 @@ I graduated with a B.Eng (Civil Engineering) from Hohai University in China in 2
 ---
 
 ### **Membership**
-1. *(To be updated)*
+1. Member, ASCE Technical Council on Computing and Information Technology, Visualization, Information Modeling, and Simulation (VIMS) Committee 
+
+2. Member, ASCE Technical Council on Computing and Information Technology, Data Sensing and Analysis (DSA) Committee
 
 
