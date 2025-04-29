@@ -29,7 +29,9 @@ redirect_from:
 {% for post in site.publications reversed %}
   <li>
     <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a><br/>
-    {% if post.citation %}<small>{{ post.citation }}</small>{% endif %}
+    {% if post.citation %}
+      <small>{{ post.citation | markdownify | strip_html | escape_once }}</small>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
@@ -56,4 +58,4 @@ redirect_from:
 </ul>
 
 # Service and Leadership
-- Currently signed in to 43 different Slack teams
+- To be updated
