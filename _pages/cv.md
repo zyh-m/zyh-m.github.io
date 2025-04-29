@@ -8,23 +8,33 @@ redirect_from:
 ---
 
 {% include base_path %}
+---
 
-# Education
-- **Ph.D. in Construction Management**, National University of Singapore, 2024
-- **B.Eng. in Civil Engineering**, Hohai University, 2017
+## 🎓 Education
 
-# Professional Appointments
-- **Research Fellow**, National University of Singapore (Jan 2024 – Present)
-- **Teaching Assistant**, National University of Singapore (Jan 2019 – Jul 2022)
-- **Research Assistant**, Hohai University (Jul 2017 – Dec 2018)
+- **Ph.D. in Construction Management**, *National University of Singapore*, 2024  
+- **B.Eng. in Civil Engineering**, *Hohai University*, 2017  
 
-# Skills
-- **Language Proficiency**: Native Chinese, Professional English
-- **Programming**: Python, Matlab
-- **Software/Tools**: Rhino/Grasshopper, Revit, Naviswork, AutoCAD
-- **Hardware**: Geophones, Distributed Acoustic Sensing (DAS) System, Raspberry Pi
+---
 
-# Publications
+## 🧑‍🏫 Professional Appointments
+
+- **Research Fellow**, National University of Singapore (Jan 2024 – Present)  
+- **Teaching Assistant**, National University of Singapore (Jan 2019 – Jul 2022)  
+- **Research Assistant**, Hohai University (Jul 2017 – Dec 2018)  
+
+---
+
+## 🛠 Skills
+
+- **Languages**: Native Chinese, Professional English  
+- **Programming**: Python, Matlab  
+- **Software**: Rhino/Grasshopper, Revit, Navisworks, AutoCAD  
+- **Hardware**: Geophones, DAS (Distributed Acoustic Sensing), Raspberry Pi  
+
+---
+
+## 📚 Selected Publications
 <ul>
 {% for post in site.publications reversed %}
   <li>
@@ -36,7 +46,9 @@ redirect_from:
 {% endfor %}
 </ul>
 
-# Talks
+---
+
+## 🎤 Talks & Presentations
 <ul>
 {% for post in site.talks reversed %}
   <li>
@@ -47,8 +59,9 @@ redirect_from:
   </li>
 {% endfor %}
 </ul>
+---
 
-# Teaching
+## 👨‍🏫 Teaching Experience
 <ul>
 {% for post in site.teaching reversed %}
   <li>
@@ -57,5 +70,10 @@ redirect_from:
 {% endfor %}
 </ul>
 
-# Service and Leadership
-- To be updated
+---
+
+## 🤝 Service & Leadership
+
+- Member, ASCE Technical Council on Computing and IT – VIMS Committee  
+- Member, ASCE Technical Council on Computing and IT – DSA Committee  
+- (More items coming soon)
