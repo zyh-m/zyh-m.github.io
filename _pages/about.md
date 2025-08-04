@@ -60,9 +60,9 @@ I received my B.Eng in Civil Engineering from Hohai University in China (2017), 
 
 | Title                            | Year        | Role     |
 |----------------------------------|-------------|----------|
-|            |     |         |
-|            |     |         |
-|            |     |         |
+| Smart Management Solutions in Coastal Protection and Flood Management Programme (CFRP)           |   2024 - Present  |  Contributor|
+| Integrated BIM Inspection System (IBIS)           |  2025   |    AI Leader     |
+
 
 ---
 
@@ -70,12 +70,13 @@ I received my B.Eng in Civil Engineering from Hohai University in China (2017), 
 
 | Year | Award                                  |
 |------|----------------------------------------|
-|   |       |
-|   |           |
+| 2019 - 2023  |    NUS Research Scholarship   |
+|  2021 |    Top 10% of Accepted Papers – International Conference on Computing in Civil Engineering (I3CE)       |
 
 ---
 
 ### 🧑‍💼 Membership
 
+- Member, ASCE
 - Member, ASCE Technical Council on Computing and Information Technology – Visualization, Information Modeling, and Simulation (VIMS)  
 - Member, ASCE Technical Council on Computing and Information Technology – Data Sensing and Analysis (DSA)
