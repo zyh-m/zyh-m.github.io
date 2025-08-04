@@ -7,21 +7,21 @@ Distributed Acoustic Sensing (DAS) system is a nonintrusive sensor. While DAS ha
 
 
 <figure>
-  <img src="/images/project_2_1.png" width="300" alt="Raw DAS data">
+  <img src="/images/project_2_1.jpg" alt="Raw DAS data">
   <figcaption>Figure 1. Raw DAS data</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/project_2_3.png" width="300" alt="Denoised DAS data">
+  <img src="/images/project_2_3.jpg" alt="Denoised DAS data">
   <figcaption>Figure 2. Denoised DAS data</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/project_2_2.png" width="300" alt="Comparison of different denoised approaches">
+  <img src="/images/project_2_2.jpg" alt="Comparison of different denoised approaches">
   <figcaption>Figure 3. Comparison of different denoised approaches </figcaption>
 </figure>
 
 <figure>
-  <img src="/images/project_2_4.png" width="300" alt="Comparison of different walking modes">
+  <img src="/images/project_2_4.jpg" alt="Comparison of different walking modes">
   <figcaption>Figure 4. Comparison of different walking modes </figcaption>
 </figure>
