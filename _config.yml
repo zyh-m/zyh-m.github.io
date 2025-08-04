@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Yuhan Zhou"
 title_separator          : "-"
-name                     : "Dr. Yuhan Zhou"
+name                     : "Yuhan Zhou"
 description              : "Zhou Yuhan, NUS, Digital Built Environment, BIM, Smart Sensing, NUS Researcher"
 url                      : https://zyh-m.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,7 +25,7 @@ include:
 author:
   # Biographic information
   avatar           : "photo.png"
-  name             : "Yuhan Zhou"
+  name             : "Dr. Yuhan Zhou"
   pronouns         : # example: "she/her"  
   bio              : "Research Fellow"
   location         : "Singapore"
