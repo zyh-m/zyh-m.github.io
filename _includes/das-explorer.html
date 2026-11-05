@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="{{ '/assets/das/explorer.css' | relative_url }}?v=walk3">
+<div class="das-story" id="das-story" data-assets="{{ '/assets/das/' | relative_url }}">
+  <div class="das-intro">
+    <p class="das-kicker">Optical fiber · indoor movement · machine learning</p>
+    <p class="das-lead">Seeing movement through an optical fiber.</p>
+    <p>Footsteps create floor vibrations. Distributed acoustic sensing (DAS) measures how those vibrations change along a fiber, turning many sensing locations into a picture of movement.</p>
+    <p class="das-facts"><span><strong>125</strong> sensing channels</span><span><strong>50 m</strong> experimental corridor</span><span><strong>0.4 m</strong> spatial sampling</span></p>
+    <a class="das-paper" href="https://doi.org/10.1016/j.buildenv.2023.111005">Read the paper <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <section class="das-block" aria-labelledby="das-explore-title">
+    <div class="das-section-heading"><div><p class="das-kicker">01 / Follow the signal</p><h2 id="das-explore-title">One fiber. Many sensing locations.</h2></div><span class="das-chip">Measured data · illustrative walker</span></div>
+    <p>Replay a passage and scrub through time to see how vibrations change along the fiber.</p>
+    <div class="das-controls"><div class="das-scenes" role="group" aria-label="Walking passage"><button type="button" data-scene="forward" aria-pressed="true">Forward passage</button><button type="button" data-scene="reverse" aria-pressed="false">Reverse passage</button></div><span class="das-hint">Waveform from channel 63</span></div>
+    <p class="das-event-key"><span aria-hidden="true"></span><strong>Existing event labels</strong><small>Orange dashed trace · outlined current position</small></p>
+    <div class="das-walk-stage" id="das-walk-stage"><video id="das-walking" class="das-main-video" controls playsinline muted preload="auto" poster="{{ '/assets/das/media/walking-forward.png' | relative_url }}?v=soft3" aria-label="Forward passage: illustrative walker with measured DAS signal and highlighted existing event labels"><source src="{{ '/assets/das/media/walking-forward.mp4' | relative_url }}?v=soft3" type="video/mp4"></video></div>
+    <div class="das-walk-controls" id="das-walk-controls" hidden>
+      <div class="das-timeline"><button type="button" class="das-play" id="das-walk-play" aria-label="Play walking passage" disabled>Play ▶</button><label for="das-walk-time">Time</label><input id="das-walk-time" type="range" min="6" max="42.916667" step="any" value="6" aria-label="Walking passage time" disabled><output id="das-walk-clock">6.0 / 42.9 s</output></div>
+      <div class="das-walk-tools"><div class="das-frame-tools" role="group" aria-label="Step through animation frames"><button type="button" id="das-walk-back" aria-label="Previous animation frame" disabled>← Frame</button><button type="button" id="das-walk-next" aria-label="Next animation frame" disabled>Frame →</button></div><div class="das-speed"><label for="das-walk-speed">Speed</label><select id="das-walk-speed"><option value="0.5">0.5×</option><option value="1">1×</option><option value="2" selected>2×</option></select></div><button type="button" id="das-walk-focus" aria-pressed="false">Focus on fiber</button></div>
+    </div>
+    <p id="das-media-status" class="das-status" role="status"></p>
+    <p class="das-note">Dots along the fiber change color and size with the measured signal strength at each channel. The orange trace follows existing event labels. The walker’s gait is illustrative and is not synchronized to individual foot contacts.</p>
+  </section>
+  <section class="das-block" aria-labelledby="das-compare-title">
+    <p class="das-kicker">02 / Explore the processing</p><h2 id="das-compare-title">From raw vibration to a visible passage.</h2>
+    <p>Compare the eight bandpass ranges in Fig. 4. Each view starts with the same raw recording; the sweep reveals the selected filtered signal.</p>
+    <div class="das-pair">
+      <div><label for="das-filter-a">Frequency range</label><select id="das-filter-a" aria-label="First frequency range"></select><video id="das-compare-a" playsinline muted preload="auto" poster="{{ '/assets/das/media/filter-0.png' | relative_url }}?v=paper8" aria-label="0.01–5 Hz filter revealed over raw data"><source src="{{ '/assets/das/media/filter-0.mp4' | relative_url }}?v=paper8" type="video/mp4"></video></div>
+      <div><label for="das-filter-b">Compare with</label><select id="das-filter-b" aria-label="Second frequency range"></select><video id="das-compare-b" playsinline muted preload="auto" poster="{{ '/assets/das/media/filter-5.png' | relative_url }}?v=paper8" aria-label="1–5 Hz filter revealed over raw data"><source src="{{ '/assets/das/media/filter-5.mp4' | relative_url }}?v=paper8" type="video/mp4"></video></div>
+    </div>
+    <div class="das-timeline"><button type="button" class="das-play" id="das-compare-play" disabled>Play ▶</button><label for="das-compare-time">Time</label><input id="das-compare-time" type="range" min="0" max="45.056" step="0.16" value="0" aria-label="Filter comparison time"><output id="das-compare-clock">0.0 / 45.1 s</output><span>4× replay</span></div>
+    <p id="das-compare-status" class="das-status" role="status">Loading comparison animations…</p>
+    <p class="das-scale"><span>Low</span><span class="das-gradient" aria-hidden="true"></span><span>High</span><span>Shared color reference across frequency bands</span></p>
+    <p class="das-note">Left of the sweep: filtered data. Right of the sweep: raw data. Colors show signal strength from the same recording, using a shared reference across frequency bands.</p>
+    <noscript><p>Frequency switching requires JavaScript. The walking animation can still be played above, and the original figures are available below.</p></noscript>
+  </section>
+
+  <section class="das-block das-research" aria-labelledby="das-research-title">
+    <p class="das-kicker">03 / From vibration to occupant tracking</p><h2 id="das-research-title">Learning patterns across time and space.</h2>
+    <p>The study proposes a machine-learning method for footstep recognition using the spatial continuity and temporal dependence of vibration signals. Geophones serve as the benchmark for evaluating DAS. The comparison also examines sensing range, walking modes and walking velocity.</p>
+
+    <details><summary>Original figures from the research</summary><div class="das-originals"><figure><img loading="lazy" src="{{ '/images/project_2_1.png' | relative_url }}" alt="Original research figure: raw DAS data"><figcaption>Raw DAS data from the original research.</figcaption></figure><figure><img loading="lazy" src="{{ '/images/project_2_3.png' | relative_url }}" alt="Original research figure: denoised DAS data"><figcaption>Denoised DAS data.</figcaption></figure><figure><img loading="lazy" src="{{ '/images/project_2_2.png' | relative_url }}" alt="Original research figure: comparison of bandpass filters"><figcaption>Filter comparison from the original research.</figcaption></figure><figure><img loading="lazy" src="{{ '/images/project_2_4.png' | relative_url }}" alt="Original research figure: different walking modes"><figcaption>Comparison of walking modes.</figcaption></figure></div></details>
+    <p class="das-citation">Zhou, Y., Yeoh, J. K. W., Li, Y. E., &amp; Solihin, W. (2024). Large scale indoor occupant tracking using distributed acoustic sensing and machine learning. <em>Building and Environment, 247</em>, 111005. <a href="https://doi.org/10.1016/j.buildenv.2023.111005">Paper &amp; results ↗</a></p>
+  </section>
+</div>
+<script defer src="{{ '/assets/das/explorer.js' | relative_url }}?v=walk3"></script>
