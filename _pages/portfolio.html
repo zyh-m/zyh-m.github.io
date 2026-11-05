@@ -2,13 +2,50 @@
 layout: archive
 title: "Portfolio"
 permalink: /portfolio/
-author_profile: true
+author_profile: false
+excerpt: "Explore research on fiber-optic sensing, human–building interaction, and building-code knowledge through visual project collections."
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<link rel="stylesheet" href="{{ '/assets/portfolio/overview.css' | relative_url }}?v=1">
+<div class="research-portfolio" id="research-portfolio">
+  <header class="rp-intro">
+    <div class="rp-heading">
+      <p class="rp-eyebrow">Yuhan Zhou / Selected research</p>
+      <h2>Signals, spaces<br>&amp; <em>knowledge.</em></h2>
+      <p class="rp-lead">Understanding the built environment through the vibrations we measure, the movement we observe, and the rules we represent.</p>
+      <a class="rp-text-link" href="{{ '/publications/' | relative_url }}">Browse publications <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="rp-map" aria-label="Research overview">
+      <div class="rp-map-heading"><span class="rp-small">Research overview</span><span class="rp-small">03 perspectives</span></div>
+      <div class="rp-map-root"><span class="rp-root-icon" aria-hidden="true">⌂</span>Built environment</div>
+      <div class="rp-map-branches" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="rp-lenses" role="tablist" aria-label="Explore research perspectives" hidden>
+        <button type="button" id="rp-tab-sensing" role="tab" aria-controls="rp-sensing" aria-selected="true" tabindex="0" data-lens="sensing"><span class="rp-lens-number">01</span><svg viewBox="0 0 80 40" aria-hidden="true"><path d="M2 21h12l5-9 7 20 8-28 9 30 8-19 6 6h21"/></svg><strong>Sense</strong><span>Fiber-optic<br>sensing</span></button>
+        <button type="button" id="rp-tab-movement" role="tab" aria-controls="rp-movement" aria-selected="false" tabindex="-1" data-lens="movement"><span class="rp-lens-number">02</span><svg viewBox="0 0 80 40" aria-hidden="true"><path d="M5 32 22 10 38 28 57 8 75 21M5 32 38 28 75 21"/><circle cx="5" cy="32" r="3"/><circle cx="22" cy="10" r="3"/><circle cx="38" cy="28" r="3"/><circle cx="57" cy="8" r="3"/><circle cx="75" cy="21" r="3"/></svg><strong>Understand</strong><span>People &amp;<br>spatial patterns</span></button>
+        <button type="button" id="rp-tab-knowledge" role="tab" aria-controls="rp-knowledge" aria-selected="false" tabindex="-1" data-lens="knowledge"><span class="rp-lens-number">03</span><svg viewBox="0 0 80 40" aria-hidden="true"><path d="M18 20h14m16 0h14M40 13V4m0 32v-9"/><rect x="2" y="13" width="16" height="14" rx="2"/><rect x="62" y="13" width="16" height="14" rx="2"/><path d="m40 12 9 8-9 8-9-8z"/></svg><strong>Represent</strong><span>Rules &amp;<br>building knowledge</span></button>
+      </div>
+      <p class="rp-map-hint" hidden>Select a perspective to explore its project <span aria-hidden="true">↓</span></p>
+      <noscript><p>Explore the three research perspectives below.</p></noscript>
+    </div>
+  </header>
+  <div class="rp-section-line"><span>Inside the research</span><span id="rp-position" aria-live="polite">Three project collections</span></div>
+  <div class="rp-projects">
+    <section class="rp-project" id="rp-sensing" aria-labelledby="rp-title-sensing" data-project="sensing">
+      <div class="rp-visual rp-visual-das">
+        <div class="rp-figure-top"><span>01 / Sensing movement</span><span class="rp-badge">Interactive exhibit</span></div>
+        <a href="{{ '/portfolio/portfolio-2/' | relative_url }}" class="rp-image-link" aria-label="Open the interactive DAS project"><img src="{{ '/assets/das/media/walking-forward.png' | relative_url }}" alt="Measured DAS vibrations across 125 channels, an existing labeled trajectory and the waveform from channel 63." width="1280" height="720" fetchpriority="high"></a>
+        <p class="rp-figure-caption"><span class="rp-legend-mark" aria-hidden="true"></span>Measured vibration · existing event labels · illustrative walker</p>
+      </div>
+      <div class="rp-project-copy"><p class="rp-eyebrow">Distributed acoustic sensing</p><h3 id="rp-title-sensing">Seeing footsteps<br>through an optical fiber.</h3><p>Can vibrations along a fiber reveal how a person moves through a building?</p><p class="rp-description">Explore measured signals, follow labeled passages, and compare the frequency bands used in the paper.</p><dl class="rp-method"><div><dt>Approach</dt><dd>DAS + machine learning</dd></div><div><dt>Explore</dt><dd>Walking passages &amp; filter comparisons</dd></div></dl><a class="rp-project-link" href="{{ '/portfolio/portfolio-2/' | relative_url }}">Explore the interactive project <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="rp-project" id="rp-movement" aria-labelledby="rp-title-movement" data-project="movement">
+      <div class="rp-visual rp-visual-movement"><div class="rp-figure-top"><span>02 / Movement &amp; space</span><span class="rp-badge">Research figures</span></div><a href="{{ '/portfolio/portfolio-3/' | relative_url }}" class="rp-image-link" aria-label="Open the building morphology and movement project"><img src="{{ '/images/project_3_2.png' | relative_url }}" alt="Collected movement trajectories overlaid on a map of Kent Ridge Campus." width="463" height="513" loading="lazy"></a><p class="rp-figure-caption">Collected trajectories · Kent Ridge Campus</p></div>
+      <div class="rp-project-copy"><p class="rp-eyebrow">Human–building interaction</p><h3 id="rp-title-movement">Reading movement<br>through space.</h3><p>How does building morphology relate to occupants’ movement?</p><p class="rp-description">A study of building morphology and movement using a rule mining approach, with visualizations of collected occupancy and trajectory data.</p><dl class="rp-method"><div><dt>Approach</dt><dd>Rule mining</dd></div><div><dt>Explore</dt><dd>Occupancy maps &amp; trajectories</dd></div></dl><a class="rp-project-link" href="{{ '/portfolio/portfolio-3/' | relative_url }}">Explore the movement study <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="rp-project" id="rp-knowledge" aria-labelledby="rp-title-knowledge" data-project="knowledge">
+      <div class="rp-visual rp-visual-knowledge"><div class="rp-figure-top"><span>03 / Knowledge &amp; rules</span><span class="rp-badge">Conceptual graphs</span></div><a href="{{ '/portfolio/portfolio-1/' | relative_url }}" class="rp-image-link" aria-label="Open the conceptual graph project"><img src="{{ '/images/project_1_1.png' | relative_url }}" alt="Reusable conceptual graph of location, showing concepts, projections, heights and spatial relationships." width="1027" height="499" loading="lazy"></a><p class="rp-figure-caption">Reusable conceptual graph · location</p></div>
+      <div class="rp-project-copy"><p class="rp-eyebrow">Automated code compliance</p><h3 id="rp-title-knowledge">Making building rules<br>explicit.</h3><p>How can the knowledge embedded in building codes be represented and shared?</p><p class="rp-description">Reusable conceptual graphs capture rule concepts, logic and relationships for the compliance-checking process.</p><dl class="rp-method"><div><dt>Approach</dt><dd>Graph-based knowledge representation</dd></div><div><dt>Explore</dt><dd>Location, gradient &amp; other reusable graphs</dd></div></dl><a class="rp-project-link" href="{{ '/portfolio/portfolio-1/' | relative_url }}">Explore the conceptual graphs <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </div>
+  <nav class="rp-index" aria-label="All portfolio projects"><span class="rp-small">All projects</span><a href="{{ '/portfolio/portfolio-2/' | relative_url }}"><span>01</span> Optical-fiber sensing <span aria-hidden="true">↗</span></a><a href="{{ '/portfolio/portfolio-3/' | relative_url }}"><span>02</span> Movement &amp; morphology <span aria-hidden="true">↗</span></a><a href="{{ '/portfolio/portfolio-1/' | relative_url }}"><span>03</span> Building-code knowledge <span aria-hidden="true">↗</span></a></nav>
+</div>
+<script defer src="{{ '/assets/portfolio/overview.js' | relative_url }}?v=1"></script>
