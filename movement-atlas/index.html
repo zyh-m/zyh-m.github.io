@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Movement Atlas · Yuhan Zhou</title>
+  <link rel="stylesheet" href="./atlas.css">
+  <script defer src="./atlas.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <a class="back" href="../portfolio/portfolio-3/" target="_top">← Movement study</a>
+      <h1>Movement Atlas</h1>
+      <nav aria-label="Scale"><a href="#campus" id="campus-link">Campus</a><a href="#ea" id="ea-link">Building EA</a></nav>
+    </header>
+    <section class="stage" aria-labelledby="heading">
+      <div class="intro"><p class="kicker" id="kicker">Campus scale</p><h2 id="heading">Campus currents.</h2></div>
+      <canvas aria-label="Illustrative movement between a central hub and surrounding campus districts."></canvas>
+      <div class="key"><i></i><span>Illustrative flow</span></div>
+      <p id="hint" hidden>Drag to rotate</p>
+    </section>
+    <div class="controls">
+      <fieldset><legend>Movement pattern</legend><div id="patterns"><button type="button" data-pattern="gather" aria-pressed="true">Gather</button><button type="button" data-pattern="exchange" aria-pressed="false">Exchange</button><button type="button" data-pattern="disperse" aria-pressed="false">Disperse</button></div></fieldset>
+      <div id="architecture" hidden><label for="level">Floor view</label><select id="level"><option value="all">All floors</option></select><button type="button" id="rotate" aria-label="Rotate building clockwise">Rotate ↻</button></div>
+      <button type="button" id="motion">Pause motion</button>
+    </div>
+    <footer>Schematic spaces and simulated movement. No observed locations or trajectories.</footer>
+    <noscript>Enable JavaScript to explore the movement patterns.</noscript>
+  </main>
+</body>
+</html>

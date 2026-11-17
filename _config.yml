@@ -162,6 +162,8 @@ include:
   - _pages
   - files
 exclude:
+  - images/project_3_1.png
+  - images/project_3_2.png
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

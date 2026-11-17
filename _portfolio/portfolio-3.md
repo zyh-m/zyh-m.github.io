@@ -3,15 +3,8 @@ title: "Studying the Impact of Building Morphology on Occupants’ Movement Usin
 collection: portfolio
 ---
 
-This portfolio is used to present the collected mobility data.
+The study examines how building morphology relates to occupants’ movement. Movement Atlas illustrates this question at two scales. The campus view shows gathering, exchange and dispersal between districts. The building view follows circulation along corridors on a schematic floor plan inspired by the EA case study.
 
+[Explore the campus]({{ '/movement-atlas/' | relative_url }}#campus) · [Explore Building EA]({{ '/movement-atlas/' | relative_url }}#ea)
 
-<figure>
-  <img src="/images/project_3_1.png" alt="Occupancy data">
-  <figcaption>Figure 1. Occupancy data</figcaption>
-</figure>
-
-<figure>
-  <img src="/images/project_3_2.png" alt="Trajectories">
-  <figcaption>Figure 2. Trajectories</figcaption>
-</figure>
+<iframe title="Movement Atlas interactive campus and building exhibit" src="{{ '/movement-atlas/' | relative_url }}" loading="lazy" style="display:block;width:100%;height:690px;border:0;border-radius:8px"></iframe>

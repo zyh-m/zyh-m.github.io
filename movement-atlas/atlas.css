@@ -1,0 +1,51 @@
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+:root { color-scheme: dark; --bg: #101e21; --ink: #eff5ec; --muted: #a8bbb4; --line: #344548; --accent: #a4f1d7; --selected: #29443f }
+body.ea { color-scheme: light; --bg: #f1eee5; --ink: #222e2c; --muted: #52645b; --line: #c9c9bb; --accent: #28695c; --selected: #d5e4d8 }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, sans-serif }
+main { max-width: 1520px; margin: auto; padding-inline: clamp(14px, 3.2vw, 52px) }
+header, .controls, nav, #patterns, #architecture, .key { display: flex; align-items: center }
+header { min-height: 66px; gap: 24px; border-bottom: 1px solid var(--line); flex-wrap: wrap }
+a { color: inherit; text-decoration: none }
+.back { color: var(--muted); font-size: .82rem }
+.back:hover { text-decoration: underline }
+h1 { margin: 0; font-size: 1rem; letter-spacing: -.03em }
+nav { margin-left: auto; gap: 4px }
+nav a, button, select { font: inherit; font-size: .83rem; padding: 7px 12px; border-radius: 30px; color: var(--ink); border: 1px solid transparent; background: transparent; cursor: pointer }
+nav a[aria-current], button[aria-pressed="true"] { color: var(--accent); background: var(--selected) }
+button:hover, select:hover, nav a:hover { border-color: var(--line) }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px }
+.stage { position: relative; isolation: isolate; height: clamp(340px, 66svh, 780px); overflow: hidden; border-bottom: 1px solid var(--line) }
+canvas { width: 100%; height: 100%; display: block }
+.ea canvas { cursor: grab; touch-action: pan-y }
+.ea canvas:active { cursor: grabbing }
+.intro, .key, #hint { position: absolute; pointer-events: none; z-index: 1 }
+.intro { top: clamp(14px, 2.8vh, 36px); left: 0 }
+.kicker, legend, #architecture label { margin: 0; text-transform: uppercase; font-size: .66rem; font-weight: 650; letter-spacing: .14em; color: var(--muted) }
+h2 { margin: 5px 0; font: normal clamp(30px, 4vw, 60px)/1 Georgia, serif; letter-spacing: -.055em }
+.key, #hint { bottom: 12px; color: var(--muted); font-size: .76rem; gap: 9px }
+.key i { width: 8px; height: 8px; border-radius: 100%; background: var(--accent); box-shadow: 0 0 9px var(--accent) }
+#hint { right: 0; margin: 0 }
+.controls { gap: 12px 32px; flex-wrap: wrap; padding-block: 15px 10px }
+fieldset { margin: 0; padding: 0; border: 0 }
+legend { padding: 0; margin-bottom: 5px }
+#patterns { margin-left: -4px }
+#motion, #rotate, select { border-color: var(--line) }
+select { background: var(--bg) }
+#motion { margin-left: auto }
+#architecture { gap: 6px; flex-wrap: wrap }
+#architecture label { flex-basis: 100% }
+footer { padding: 7px 0 16px; font-size: .74rem; color: var(--muted) }
+.embedded .back { display: none }
+body.preview main { padding: 0 }
+.preview header, .preview .controls, .preview footer, .preview .intro, .preview .key { display: none }
+.preview .stage { height: 100vh; border: 0 }
+@media (max-width: 620px) {
+  header { gap: 4px 12px; padding-block: 9px }
+  .back { flex-basis: 100% }
+  nav a, button, select { padding: 6px 9px }
+  .stage { height: clamp(340px, 60svh, 560px) }
+  .controls { gap: 9px 16px }
+  #motion { margin-left: 0 }
+  #architecture { order: 2; flex-basis: 100% }
+}
