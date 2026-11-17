@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="{{ '/assets/das/explorer.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/movement/explorer.css' | relative_url }}">
+<section class="das-story movement-study" id="movement-study" aria-labelledby="movement-title">
+  <div class="das-intro">
+    <p class="das-kicker">Human–building interaction · NUS Kent Ridge</p>
+    <p>How does the layout of a campus shape the way people move? Explore connections between campus districts, then follow movement between floors of the EA building.</p>
+  </div>
+  <div class="das-block">
+    <div class="das-section-heading">
+      <h2 id="movement-title">Explore movement at two scales</h2>
+      <div class="das-scenes" role="group" aria-label="Spatial scale">
+        <button type="button" data-view="campus" aria-controls="mv-campus" aria-pressed="true">Campus</button>
+        <button type="button" data-view="ea" aria-controls="mv-ea" aria-pressed="false">Building EA</button>
+      </div>
+    </div>
+    <p class="das-note">All flows are simulated. The lights illustrate directions of travel without displaying observed headcounts or individual journeys.</p>
+    <div class="mv-tools" role="group" aria-label="Movement playback">
+      <div class="das-scenes" role="group" aria-label="Flow pattern">
+        <button type="button" data-pattern="Gather" aria-pressed="true">Gather</button>
+        <button type="button" data-pattern="Exchange" aria-pressed="false">Exchange</button>
+        <button type="button" data-pattern="Disperse" aria-pressed="false">Disperse</button>
+      </div>
+      <button type="button" id="mv-play">Pause motion</button>
+    </div>
+    <div id="mv-campus">
+      <div class="mv-stage mv-map"><canvas role="img" aria-label="Simulated flows between districts on the Kent Ridge campus plan"></canvas></div>
+      <div class="mv-tools"><label>District focus <select id="mv-district"><option value="-1">Campus overview</option></select></label></div>
+      <div class="mv-key"><span>Inbound</span><span>Outbound</span></div>
+      <p class="das-note mv-caption" aria-live="polite">Illustrative arrivals at Central Library.</p>
+      <img hidden id="mv-basemap" alt="" src="{{ '/assets/movement/campus-plan.png' | relative_url }}">
+    </div>
+    <div id="mv-ea" hidden>
+      <div class="mv-stage mv-model" aria-label="Seven-storey EA architectural model"></div>
+      <div class="mv-tools">
+        <div role="group" class="das-scenes" aria-label="Model layout">
+          <button type="button" data-layout="Opened" aria-pressed="true">Exploded</button>
+          <button type="button" data-layout="Assembled" aria-pressed="false">Stacked</button>
+          <button type="button" data-layout="Plan" aria-pressed="false">Plan</button>
+        </div>
+        <label>Floor focus <select id="mv-floor"><option value="-1">All levels</option></select></label>
+      </div>
+      <div class="mv-key"><span>Upward flow</span><span>Downward flow</span></div>
+      <p class="das-note mv-caption" aria-live="polite">Loading the architectural model…</p>
+      <p class="das-note">Drag to orbit. Scroll or pinch to zoom. Upper-floor walls on L06 and L07 are inferred from aligned lower-floor plans.</p>
+    </div>
+    <noscript><p>Enable JavaScript to explore campus flows and the EA model.</p></noscript>
+  </div>
+</section>
+<script type="module" src="{{ '/assets/movement/explorer.js' | relative_url }}"></script>

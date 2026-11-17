@@ -1,0 +1,17 @@
+.movement-study .das-intro { padding-bottom: 0 }
+.movement-study .das-section-heading { align-items: center }
+.movement-study .das-section-heading h2 { margin: 0 }
+.movement-study .mv-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 14px 0 }
+.movement-study .mv-tools label { display: flex; align-items: center; gap: 8px; flex-wrap: wrap }
+.movement-study select { width: auto; max-width: 100% }
+.movement-study .mv-stage { position: relative; width: 100%; height: clamp(330px, 58vw, 570px); overflow: hidden; border-radius: 7px }
+.movement-study .mv-map { background: #122224; cursor: pointer }
+.movement-study .mv-model { background: #ebece1; cursor: grab }
+.movement-study .mv-model canvas { touch-action: none }
+.movement-study .mv-stage canvas { display: block; width: 100%; height: 100% }
+.movement-study .floor-label { position: absolute; font: 10px/1.2 ui-monospace, monospace; color: #365e4d; background: #eff1e6df; padding: 2px 4px; border-radius: 2px; pointer-events: none }
+.movement-study .error { padding: 18px; color: #183c32 }
+.movement-study .das-note + .das-note { margin-top: 4px }
+.movement-study .mv-key { display: flex; flex-wrap: wrap; gap: 16px; color: var(--das-muted); font-size: 12px }
+.movement-study .mv-key span::before { content: ""; display: inline-block; width: 14px; height: 3px; margin-right: 5px; vertical-align: middle; background: #43887c }
+.movement-study .mv-key span + span::before { background: #c8845c }

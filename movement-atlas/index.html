@@ -1,26 +1,5 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
-<meta name="color-scheme" content="dark"><title>Campus currents · Movement Atlas</title>
-<link rel="stylesheet" href="./atlas.css">
-</head>
-<body class="campus">
-<header>
-<nav aria-label="View"><a href="./" aria-current="page">Campus</a><a href="building.html" >Building EA</a></nav></header>
-<main>
-<section class="intro"><p class="kicker">NUS &nbsp;/&nbsp; KENT RIDGE</p><h1>Campus <br><em>currents.</em></h1><p class="lede">Follow light across Kent Ridge as a flow gathers, spreads, or moves between districts.</p>
-<div class="settings"><fieldset><legend>Flow pattern</legend><div id="patterns" class="choices"></div></fieldset><fieldset><legend><label for="focus">District focus</label></legend><select id="focus"><option value="-1">Campus overview</option></select></fieldset></div>
-<div class="legend"><div><i class="swatch outward"></i>Outbound</div><div><i class="swatch inward"></i>Inbound</div></div>
-<p class="disclosure">Simulated movement. The lights do not represent measured headcounts or individual journeys.</p></section>
-<section class="figure" aria-label="Campus currents interactive view">
-<div class="figure-top"><span>Kent Ridge · Campus plan</span><span class="live"><i></i><span id="motion-state">Animation playing</span></span></div>
-<div id="stage"><canvas id="map" role="img" aria-label="Animated schematic of connections between campus districts"></canvas></div>
-<div class="figure-bottom"><span id="figure-caption" aria-live="polite">Illustrative arrivals at Central Library.</span><button id="play" type="button" aria-pressed="true">Pause motion</button></div>
-</section></main>
-<footer><a href="../portfolio/portfolio-3/" target="_top">← Movement study</a><span>Kent Ridge campus plan · Simulated connections</span><a href="building.html">Explore Building EA &nbsp;↗</a></footer>
-<img hidden id="basemap" src="./campus-plan.png" alt="">
-<script src="./common.js"></script>
-<script src="./campus.js"></script>
-</body></html>
+<html lang="en"><head><meta charset="utf-8"><title>Campus and building movement</title>
+<script>location.replace('../portfolio/portfolio-3/' + (location.hash === '#ea' ? '#ea' : '#campus'));</script>
+<noscript><meta http-equiv="refresh" content="0; url=../portfolio/portfolio-3/#campus"></noscript></head>
+<body><a href="../portfolio/portfolio-3/#campus">Open the movement study in the portfolio</a></body></html>

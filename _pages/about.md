@@ -28,7 +28,7 @@ I received my B.Eng in Civil Engineering from Hohai University in China (2017), 
 - Developed sensor-to-dashboard applications integrating data analytics and ML to optimize occupant behavior and building performance.  
 - Utilized IoT systems for real-time monitoring and decision-making in smart facilities.
 
-[Explore Movement Atlas · Campus and building demos]({{ '/movement-atlas/' | relative_url }})
+[Explore the campus and building movement study]({{ '/portfolio/portfolio-3/' | relative_url }})
 
 #### b) Smart Sensing Technology
 - Deployed fiber-optic and IoT-based sensing for automated data collection and lifecycle analysis.  
